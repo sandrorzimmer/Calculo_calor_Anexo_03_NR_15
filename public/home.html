@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Cálculo de calor</title>
+        <meta charset="UTF-8" />
+        <meta name="author" content="SrZ" />
+        <meta name="description" content="To do list" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="_css/styles.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="icon" type="image/png" sizes="32x32" href="_image/favicon-32x32.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <script src="_script/script.js"></script>
+    </head>
+
+    <body>
+        <main>
+            <h1 class='header_page'>Cálculo de calor</h1>
+            <div class='window_main'>
+
+                <div class="window_esquerda">
+                    <div class='window_insert'>
+                        <label id="lbl_qtd_locais_medidos" for='qtd_locais_medidos'>Número de locais medidos:</label>
+                        <input
+                        type='number'
+                        name='qtd_locais_medidos'
+                        id='qtd_locais_medidos'
+                        placeholder='Quantidade de locais medidos'
+                        autofocus
+                        />
+                    </div>
+
+                    <div class='window_campos'>
+                    </div>
+
+                    <div class='window_calcular'>
+                        <input
+                        type='button'
+                        name='calcular'
+                        id='calcular'
+                        value='Calcular'
+                        onclick='calcularIBUTGmedio()'
+                        />
+                    </div>
+                </div>
+
+                <div class="window_direita">
+                    <div class='window_erro'>
+                    </div>
+
+                    <div class='window_resultado'>
+                        <div class='resultado' id='metabolica_media_final'></div>
+                        <div class='resultado' id='limite_tolerancia'></div>
+                        <div class='resultado' id='ibutg_medio_final'></div>
+                        <div  class="container_resultado_1">
+                            <div class='resultado' id='resultado_texto'></div>
+                            <span class="material-icons icon_copy" id="icon_copy_texto_1">content_copy</span>
+                        </div>
+                        <div  class="container_resultado_2">
+                            <div class='resultado' id='resultado_texto_2'></div>
+                            <span class="material-icons  icon_copy" id="icon_copy_texto_2">content_copy</span>
+                            <span class="material-icons icon_alerta" id="icon_acima_limite">warning</span>
+                            <span class="material-icons icon_alerta" id="icon_abaixo_limite">check_circle_outline</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
