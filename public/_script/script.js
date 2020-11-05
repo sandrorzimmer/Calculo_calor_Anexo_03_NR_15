@@ -45,10 +45,62 @@ function mostraErro(mensagem,tempo) {
     }
 }
 
+//Monta o campo select para seleção da Taxa Metabólica em cada local
+function montaSelectTaxaMetabolica() {
+    let array_taxas = [];
+    let tabela_taxa_metabolica = {};
+
+    array_taxas = [
+        {
+            cod: 101,
+            valor: 100,
+            descricao: "Sentado - Em repouso"
+        },
+        {
+            cod: 102,
+            valor: 126,
+            descricao: "Sentado - Trabalho leve com as mãos"
+        },
+        {
+            cod: 103,
+            valor: 153,
+            descricao: "Sentado - Trabalho moderado com as mãos "
+        }
+    ]
+
+    console.log(array_taxas[0]["cod"]);
+
+    return array_taxas;
+
+
+
+
+/*     tabela_taxa_metabolica[101] = "Sentado - Em repouso";
+    tabela_taxa_metabolica[102] = "Sentado - Trabalho leve com as mãos";
+    tabela_taxa_metabolica[103] = "Sentado - Trabalho moderado com as mãos ";
+    tabela_taxa_metabolica[104] = "Sentado - Trabalho pesado com as mãos";
+    tabela_taxa_metabolica[105] = "Sentado - Trabalho leve com um braço ";
+    tabela_taxa_metabolica[106] = "Sentado - Trabalho moderado com um braço";
+    tabela_taxa_metabolica[107] = "Sentado - Trabalho pesado com um braço";
+    tabela_taxa_metabolica[108] = "Sentado - Trabalho leve com dois braços";
+    tabela_taxa_metabolica[109] = "Sentado - Trabalho moderado com dois braços";
+    tabela_taxa_metabolica[110] = "Sentado - Trabalho pesado com dois braços";
+    tabela_taxa_metabolica[111] = "Sentado - Trabalho leve com braços e pernas";
+    tabela_taxa_metabolica[112] = "Sentado - Trabalho moderado com braços e pernas";
+    tabela_taxa_metabolica[113] = "Sentado - Trabalho pesado com braços e pernas"; */
+
+    
+
+}
+
 //Carregar campos a serem preenchidos
 function carregarCampos() {
     let qtd_locais_medidos = 0;
     let element = "";
+    let array_taxas = [];
+
+    array_taxas = montaSelectTaxaMetabolica();
+
     qtd_locais_medidos = buscaQtdeLocais();
 
     if (qtd_locais_medidos < 1 || qtd_locais_medidos > 5) {
@@ -89,6 +141,24 @@ function carregarCampos() {
         element += "id='tempo_local_" + (i + 1) + "' ";
         element += "placeholder='Tempo no local " + (i + 1) + " (minutos)' ";
         element += "/>";
+
+        element += "<label for='select_metabolica_local_" + (i + 1) + "'>Taxa Metabólica</label>";
+
+        element += "<select name='select_metabolica_local_" + (i + 1) + "'";
+        element += "id='select_metabolica_local_" + (i + 1) + "'>";
+
+
+        for (let x = 0; x < array_taxas.length ; x++) {
+            element += "<option value='";
+            element += array_taxas[x]['valor'];
+            element += "'>";
+            element += array_taxas[x]['descricao'];
+            element += "</option>";
+        }
+
+        
+
+
 
         element += "<label for='metabolica_local_" + (i + 1) + "'>Taxa Metabólica</label>";
 
@@ -447,6 +517,11 @@ function validaDados() {
 
 }
 
+//Determina o valor da taxa metabólica selecionada para cada local
+/* function buscaTaxaMetabolica() {
+
+} */
+
 //Calcular ibutg médio e Taxa metabólica média
 function calcularIBUTGmedio() {
     let validacao = [];
@@ -559,6 +634,7 @@ $(document).ready(function(){
     $('#qtd_locais_medidos').keydown(function(e) {
         if (e.which == 13) {
              carregarCampos();
+             montaSelectTaxaMetabolica();
         }
     })
 
