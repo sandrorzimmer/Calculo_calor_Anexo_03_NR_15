@@ -64,33 +64,255 @@ function montaSelectTaxaMetabolica() {
         {
             cod: 103,
             valor: 153,
-            descricao: "Sentado - Trabalho moderado com as mãos "
-        }
+            descricao: "Sentado - Trabalho moderado com as mãos"
+        },
+        {
+            cod: 104,
+            valor: 171,
+            descricao: "Sentado - Trabalho pesado com as mãos"
+        },
+        {
+            cod: 105,
+            valor: 162,
+            descricao: "Sentado - Trabalho leve com um braço"
+        },
+        {
+            cod: 106,
+            valor: 198,
+            descricao: "Sentado - Trabalho moderado com um braço"
+        },
+        {
+            cod: 107,
+            valor: 234,
+            descricao: "Sentado - Trabalho pesado com um braço"
+        },
+        {
+            cod: 108,
+            valor: 216,
+            descricao: "Sentado - Trabalho leve com dois braços"
+        },
+        {
+            cod: 109,
+            valor: 252,
+            descricao: "Sentado - Trabalho moderado com dois braços"
+        },
+        {
+            cod: 110,
+            valor: 288,
+            descricao: "Sentado - Trabalho pesado com dois braços"
+        },
+        {
+            cod: 111,
+            valor: 324,
+            descricao: "Sentado - Trabalho leve com braços e pernas"
+        },
+        {
+            cod: 112,
+            valor: 441,
+            descricao: "Sentado - Trabalho moderado com braços e pernas"
+        },
+        {
+            cod: 113,
+            valor: 603,
+            descricao: "Sentado - Trabalho pesado com braços e pernas"
+        },
+        {
+            cod: 201,
+            valor: 126,
+            descricao: "Em pé, agachado ou ajoelhado - Em repouso"
+        },
+        {
+            cod: 202,
+            valor: 153,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho leve com as mãos"
+        },
+        {
+            cod: 203,
+            valor: 180,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho moderado com as mãos"
+        },
+        {
+            cod: 204,
+            valor: 198,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho pesado com as mãos"
+        },
+        {
+            cod: 205,
+            valor: 189,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho leve com um braço"
+        },
+        {
+            cod: 206,
+            valor: 225,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho moderado com um braço"
+        },
+        {
+            cod: 207,
+            valor: 261,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho pesado com um braço"
+        },
+        {
+            cod: 208,
+            valor: 243,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho leve com dois braços"
+        },
+        {
+            cod: 209,
+            valor: 279,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho moderado com dois braços"
+        },
+        {
+            cod: 210,
+            valor: 315,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho pesado com dois braços"
+        },
+        {
+            cod: 211,
+            valor: 351,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho leve com o corpo"
+        },
+        {
+            cod: 212,
+            valor: 468,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho moderado com o corpo"
+        },
+        {
+            cod: 213,
+            valor: 630,
+            descricao: "Em pé, agachado ou ajoelhado - Trabalho pesado com o corpo"
+        },
+        {
+            cod: 301,
+            valor: 198,
+            descricao: "Em pé, em movimento - Andando no plano - Sem carga - 2 km/h"
+        },
+        {
+            cod: 302,
+            valor: 252,
+            descricao: "Em pé, em movimento - Andando no plano - Sem carga - 3 km/h"
+        },
+        {
+            cod: 303,
+            valor: 297,
+            descricao: "Em pé, em movimento - Andando no plano - Sem carga - 4 km/h"
+        },
+        {
+            cod: 304,
+            valor: 360,
+            descricao: "Em pé, em movimento - Andando no plano - Sem carga - 5 km/h"
+        },
+        {
+            cod: 305,
+            valor: 333,
+            descricao: "Em pé, em movimento - Andando no plano - Com carga - 10 kg - 4 km/h"
+        },
+        {
+            cod: 306,
+            valor: 450,
+            descricao: "Em pé, em movimento - Andando no plano - Com carga - 30 kg - 4 km/h"
+        },
+        {
+            cod: 307,
+            valor: 787,
+            descricao: "Em pé, em movimento - Correndo no plano - 9 km/h"
+        },
+        {
+            cod: 308,
+            valor: 873,
+            descricao: "Em pé, em movimento - Correndo no plano - 12 km/h"
+        },
+        {
+            cod: 309,
+            valor: 990,
+            descricao: "Em pé, em movimento - Correndo no plano - 15 km/h"
+        },
+        {
+            cod: 310,
+            valor: 324,
+            descricao: "Em pé, em movimento - Subindo rampa - Sem carga - com 5° de inclinação - 4 km/h"
+        },
+        {
+            cod: 311,
+            valor: 378,
+            descricao: "Em pé, em movimento - Subindo rampa - Sem carga - com 15° de inclinação - 3 km/h"
+        },
+        {
+            cod: 312,
+            valor: 540,
+            descricao: "Em pé, em movimento - Subindo rampa - Sem carga - com 25° de inclinação - 3 km/h"
+        },
+        {
+            cod: 313,
+            valor: 486,
+            descricao: "Em pé, em movimento - Subindo rampa - Com carga - com 15° de inclinação - 4 km/h"
+        },
+        {
+            cod: 314,
+            valor: 738,
+            descricao: "Em pé, em movimento - Subindo rampa - Com carga - com 25° de inclinação - 4 km/h"
+        },
+        {
+            cod: 315,
+            valor: 243,
+            descricao: "Em pé, em movimento - Descendo rampa (5 km/h) sem carga - com 5° de inclinação"
+        },
+        {
+            cod: 316,
+            valor: 252,
+            descricao: "Em pé, em movimento - Descendo rampa (5 km/h) sem carga - com 15° de inclinação"
+        },
+        {
+            cod: 317,
+            valor: 324,
+            descricao: "Em pé, em movimento - Descendo rampa (5 km/h) sem carga - com 25° de inclinação"
+        },
+        {
+            cod: 318,
+            valor: 522,
+            descricao: "Em pé, em movimento - Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m - Sem carga"
+        },
+        {
+            cod: 319,
+            valor: 648,
+            descricao: "Em pé, em movimento - Subindo escada (80 degraus por minuto - altura do degrau de 0,17 m - Com carga (20 kg"
+        },
+        {
+            cod: 320,
+            valor: 279,
+            descricao: "Em pé, em movimento - Descendo escada (80 degraus por minuto - altura do degrau de 0,17 m - Sem carga"
+        },
+        {
+            cod: 321,
+            valor: 400,
+            descricao: "Em pé, em movimento - Descendo escada (80 degraus por minuto - altura do degrau de 0,17 m - Com carga (20 kg"
+        },
+        {
+            cod: 322,
+            valor: 320,
+            descricao: "Trabalho moderado de braços (ex.: varrer, trabalho em almoxarifado"
+        },
+        {
+            cod: 323,
+            valor: 349,
+            descricao: "Trabalho moderado de levantar ou empurrar"
+        },
+        {
+            cod: 324,
+            valor: 391,
+            descricao: "Trabalho de empurrar carrinhos de mão, no mesmo plano, com carga"
+        },
+        {
+            cod: 325,
+            valor: 495,
+            descricao: "Trabalho de carregar pesos ou com movimentos vigorosos com os braços (ex.: trablho com foice"
+        },
+        {
+            cod: 326,
+            valor: 524,
+            descricao: "Trabalho pesado de levantar, empurrar ou arrastar pesos (ex.: remoção com pá, abertura de valas"
+        },
     ]
-
-    console.log(array_taxas[0]["cod"]);
-
     return array_taxas;
-
-
-
-
-/*     tabela_taxa_metabolica[101] = "Sentado - Em repouso";
-    tabela_taxa_metabolica[102] = "Sentado - Trabalho leve com as mãos";
-    tabela_taxa_metabolica[103] = "Sentado - Trabalho moderado com as mãos ";
-    tabela_taxa_metabolica[104] = "Sentado - Trabalho pesado com as mãos";
-    tabela_taxa_metabolica[105] = "Sentado - Trabalho leve com um braço ";
-    tabela_taxa_metabolica[106] = "Sentado - Trabalho moderado com um braço";
-    tabela_taxa_metabolica[107] = "Sentado - Trabalho pesado com um braço";
-    tabela_taxa_metabolica[108] = "Sentado - Trabalho leve com dois braços";
-    tabela_taxa_metabolica[109] = "Sentado - Trabalho moderado com dois braços";
-    tabela_taxa_metabolica[110] = "Sentado - Trabalho pesado com dois braços";
-    tabela_taxa_metabolica[111] = "Sentado - Trabalho leve com braços e pernas";
-    tabela_taxa_metabolica[112] = "Sentado - Trabalho moderado com braços e pernas";
-    tabela_taxa_metabolica[113] = "Sentado - Trabalho pesado com braços e pernas"; */
-
-    
-
 }
 
 //Carregar campos a serem preenchidos
@@ -142,10 +364,10 @@ function carregarCampos() {
         element += "placeholder='Tempo no local " + (i + 1) + " (minutos)' ";
         element += "/>";
 
-        element += "<label for='select_metabolica_local_" + (i + 1) + "'>Taxa Metabólica</label>";
+        element += "<label for='select_metabolica_local_" + (i + 1) + "'>Atividade</label>";
 
         element += "<select name='select_metabolica_local_" + (i + 1) + "'";
-        element += "id='select_metabolica_local_" + (i + 1) + "'>";
+        element += "id='select_metabolica_local_" + (i + 1) + "' onchange='selecionarTaxa(" + (i + 1) + ")'>";
 
 
         for (let x = 0; x < array_taxas.length ; x++) {
@@ -156,9 +378,7 @@ function carregarCampos() {
             element += "</option>";
         }
 
-        
-
-
+        element += "</select>";
 
         element += "<label for='metabolica_local_" + (i + 1) + "'>Taxa Metabólica</label>";
 
@@ -166,16 +386,41 @@ function carregarCampos() {
         element += "name='metabolica_local_" + (i + 1) + "' ";
         element += "id='metabolica_local_" + (i + 1) + "' ";
         element += "placeholder='Taxa metabólica no local " + (i + 1) + "' ";
-        element += "/>";
+        element += "readonly/>";
 
         element += "</div>";
-
     }
 
     $(".window_campos").html(element);
     $("#calcular").show();
 
     return;
+}
+
+function selecionarTaxa(local) {
+    let valor_taxa = 0;
+    valor_taxa = $("#select_metabolica_local_" + local).val();
+    $("#metabolica_local_" + local).val(valor_taxa);
+    
+    return;
+}
+
+function buscaTextosAtividades() {
+    let array_textos = [];
+    let qtd_locais_medidos = 0;
+
+    qtd_locais_medidos = buscaQtdeLocais();
+
+    for (let i = 0; i < qtd_locais_medidos; i++) {
+        let texto = "";
+
+        texto = $("#select_metabolica_local_" + (i+ 1) + " option:selected").text();
+        console.log(texto);
+        array_textos.push(texto);
+    }
+
+    return array_textos;
+
 }
 
 function buscaNome() {
@@ -258,7 +503,6 @@ function verificaLT(metabolica) {
     let tabela_lt = {};
     let tabela_lt_item = [];
 
-    //ibutg_final = ibutg;
     metabolica_final = metabolica;
 
     tabela_lt[100] = 33.7;
@@ -361,8 +605,14 @@ function verificaLT(metabolica) {
             tabela_lt_item.push(m,limite_tolerancia);
 
             return tabela_lt_item;
+        }
 
-            //return limite_tolerancia;
+        if (metabolica_final > 606) {
+            limite_tolerancia = tabela_lt[606];
+
+            tabela_lt_item.push(606,limite_tolerancia);
+
+            return tabela_lt_item;
         }
     }
 }
@@ -408,6 +658,7 @@ function montaTexto(ibutg_medio_calculado,metabolica_media_calculada) {
     let excedeu_limite = false;
     let tabela_lt_item = [];
     let m_limite_tolerancia = 0;
+    let array_textos = [];
 
     nomes = buscaNome();
     qtd_locais_medidos = buscaQtdeLocais();
@@ -417,26 +668,63 @@ function montaTexto(ibutg_medio_calculado,metabolica_media_calculada) {
     tabela_lt_item = verificaLT(metabolica_media_final);
     m_limite_tolerancia = tabela_lt_item[0];
     limite_tolerancia = tabela_lt_item[1];
+    array_textos = buscaTextosAtividades();
 
     texto += "Avaliação de acordo com a NHO 06 - Avaliação de Exposição Ocupacional ao Calor - FUNDACENTRO ";
-    texto += "e Anexo 03 da NR 15, Portaria 3.214/1978, alterado pela Portaria SEPRT nº 1.359/2019.";
+    texto += "e Anexo 03 da NR 15, Portaria 3.214/1978, Portaria SEPRT nº 1.359/2019. ";
     texto += "<br>";
 
     if (qtd_locais_medidos == 1) {
-        texto += nomes[item] + ": IBUTG = " + valores_ibutg[item] + "&deg C / M = " + valores_metabolica[item] + " W" + "<br>";
+        texto += nomes[item];
+        texto += ": ";
+        texto += "<br>";
+        texto += "Atividade: "
+        texto += array_textos[item];
+        texto += " - ";
+        texto += "M = ";
+        texto += valores_metabolica[item];
+        texto += " W ";
+        texto += "/";
+        texto += " IBUTG = ";
+        texto += valores_ibutg[item];
+        texto += "&deg C ";
+        texto += "<br>";
+
     } else {
         valores_ibutg.forEach(element => {
-            texto += nomes[item] + ": IBUTG" + (item + 1) + " = " + element + "&deg C / t" + (item + 1) +"  = " + valores_tempo[item] + " min / " + "M" + (item + 1) +" = " + valores_metabolica[item] + " W" + "<br>";
+            //texto += nomes[item] + ": IBUTG" + (item + 1) + " = " + element + "&deg C / t" + (item + 1) +"  = " + valores_tempo[item] + " min / " + "M" + (item + 1) +" = " + valores_metabolica[item] + " W" + "<br>";
+            texto += nomes[item];
+            texto += ": ";
+            texto += "<br>";
+            texto += "Atividade: "
+            texto += array_textos[item];
+            texto += " - ";
+            texto += "M";
+            texto += (item + 1);
+            texto += " = "
+            texto += valores_metabolica[item];
+            texto += " W ";
+            texto += "/";
+            texto += " IBUTG";
+            texto += (item + 1);
+            texto += " = ";
+            texto += element;
+            texto += "&deg C ";
+            texto += " / ";
+            texto += "t";
+            texto += (item + 1);
+            texto += " = ";
+            texto += valores_tempo[item];
+            texto += " min "
+            texto += "<br>";
+
             item ++;
         });
 
-        texto += "IBUTG médio ponderado para uma hora: IBUTG = (IBUTG1 x T1 + IBUTG2 x T2 + IBUTGn x Tn) / 60 = " + ibutg_medio_final + "&deg C" + "<br>";
-        texto += "Taxa Metabólica média ponderada: M = (M1 x t1 + M2 x t2 + Mn x tn) / 60 = " + metabolica_media_final + " W" + "<br>";
+        texto += "IBUTG médio ponderado = (IBUTG1 x t1 + IBUTG2 x t2 + IBUTGn x tn) / 60 = " + ibutg_medio_final + "&deg C " + "<br>";
+        texto += "Taxa Metabólica média ponderada = (M1 x t1 + M2 x t2 + Mn x tn) / 60 = " + metabolica_media_final + " W " + "<br>";
     }
-    texto += "Limite de tolerância = " + limite_tolerancia + "&deg C para M = " + m_limite_tolerancia + " W";
-
-
-    console.log("Limite de tolerância = " + limite_tolerancia);
+    texto += "LT = " + limite_tolerancia + "&deg C para M = " + m_limite_tolerancia + " W ";
 
     if (ibutg_medio_final > limite_tolerancia) {
         texto_2 += "Ambiente INSALUBRE em consequência da exposição ao agente físico 'temperaturas anormais (calor)' em valores acima do limite de tolerância, ";
@@ -490,8 +778,8 @@ function validaDados() {
 
     //Valida valores de Taxa metabólica
     array_metabolica.forEach(metabolica => {
-        if(metabolica == "" || metabolica < 100 || metabolica > 606) {
-            erro_metabolica = "Os valores de Taxa Metabólica devem estar entre 100 e 606.";
+        if(metabolica == "" || metabolica < 100 || metabolica > 990) {
+            erro_metabolica = "Os valores de Taxa Metabólica devem estar entre 100 e 990.";
             dados_ok = false;
         }
     });
@@ -674,6 +962,10 @@ $(document).ready(function(){
     $(".container_resultado_2").click(function(){
         copiarTexto(2);
     })
+
+/*     $("#select_metabolica_local_1").on("change", function(e) {
+        alert("Mudou a taxa!");
+    }) */
 
     return;
  });
